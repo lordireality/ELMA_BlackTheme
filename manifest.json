@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ELMA Designer BlackTheme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Меняет стиль дизайнера в ELMA на темный. Автор: @fr3nd3r",
   "permissions": ["scripting", "activeTab", "storage"],
   "action": {

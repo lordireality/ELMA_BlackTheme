@@ -13,9 +13,8 @@ const waitForMonacoModel = () => new Promise(resolve => {
 
 (async () => {
   const model = await waitForMonacoModel();
-  if (!model) return;
-  window.__ELMA_GPT_MONACOMODEL = model;
-  window.postMessage({ type: "GPT_MODEL_READY" }, "*");
+  if (!model) 
+    return;
 })();
 })();
 
